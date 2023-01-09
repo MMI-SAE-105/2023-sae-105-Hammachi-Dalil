@@ -1,0 +1,15 @@
+.header {
+    background-color: var(--couleur-tonique-2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nom_site {
+    font-family: "italiana";
+    font-size: var(--typographie-texte-1);
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
