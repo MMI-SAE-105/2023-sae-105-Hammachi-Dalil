@@ -1,0 +1,14 @@
+/* Les Variables */
+@import"./css/utils/variables.css";
+
+/* base */
+@import "./css/bases/main.css";
+@import"./css/bases/media.css";
+
+/* layout */
+@import"./css/layout/header.css";
+@import"./css/layout/footer.css";
+
+/* composant */
+@import"./css/component/menu.css";
+@import"./css/component/caroussel.css";

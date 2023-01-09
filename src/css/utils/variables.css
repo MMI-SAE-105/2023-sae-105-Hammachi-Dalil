@@ -1,0 +1,13 @@
+:root {
+    /* Color styles */
+--couleur-tonique-2: rgba(255, 244, 222, 1);
+--couleur-dominante: rgba(183, 141, 58, 1);
+--couleur-tonique-1: rgba(46, 31, 0, 1);
+--couleur-text: rgba(255, 255, 255, 1);
+--couleur-titre: rgba(7, 5, 0, 1);
+
+/* Text-size styles */
+--typographie-titre-1: 36px;
+--typographie-texte-1: 20px;
+}
+
