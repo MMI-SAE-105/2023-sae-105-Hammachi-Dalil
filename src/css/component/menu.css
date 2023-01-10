@@ -59,10 +59,8 @@
     top: 10px;
   }
 
-  .menu__link {
-    display: block;
-    width: 80%;
-    margin: 2rem;
+  .menu_link {
     font-size: var(--typographie-titre-1);
-    color: var(--couleur-titre);
-  }
+    color: var(--couleur-tonique-1);
+    font-family: "italiana";
+    }
