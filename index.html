@@ -16,7 +16,7 @@
             <span class="menu-btn__bar"></span>
         </button>
 
-        <nav class="headre_menu-btn menu-btn" @click="menuIsOpen =! menuIsOpen">
+        <nav class="header_menu menu" :class="menuIsOpen && 'menu--open'">
             <ul class="menu-list">
                 <li class="menu_item">
                     <a class="menu_link" href="./index.html">acceuil</a>

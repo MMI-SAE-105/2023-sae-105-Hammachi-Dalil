@@ -1,6 +1,7 @@
 .header {
     background-color: var(--couleur-tonique-2);
     display: flex;
+    text-align: center;
     justify-content: space-between;
 }
 
