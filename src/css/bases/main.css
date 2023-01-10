@@ -30,6 +30,8 @@ a {
     color: var(--couleur-tonique-2);
     font-family: "jaldi";
     font-size: var(--typographie-texte-1);
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .date {
