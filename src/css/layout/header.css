@@ -7,7 +7,8 @@
 
 .header_nom_site {
     font-family: "italiana";
-    font-size: var(--typographie-texte-1);
+    font-size: var(--typographie-titre-1);
+    color: var(--couleur-tonique-1);
     font-weight: 600;
     text-decoration: none;
     margin-top: 2vh;

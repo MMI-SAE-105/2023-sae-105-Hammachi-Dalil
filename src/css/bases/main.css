@@ -13,3 +13,7 @@ p {
 h1 {
     font-family: "italiana";
 }
+
+ul {
+    appearance: none;
+}
