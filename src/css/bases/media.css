@@ -4,7 +4,7 @@ img {
 
 .image_artiste {
     border: 10px solid var(--couleur-tonique-2);
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 }
 
