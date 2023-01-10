@@ -26,3 +26,18 @@ a {
     text-decoration: none;  
 }
 
+.text_page {
+    color: var(--couleur-tonique-2);
+    font-family: "jaldi";
+    font-size: var(--typographie-texte-1);
+}
+
+.date {
+    color: var(--couleur-tonique-2);
+    font-size: 3em;
+    font-family: "italiana";
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
