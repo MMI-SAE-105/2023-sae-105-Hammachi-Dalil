@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false, menuArticle: false }">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <title>Berliner Art</title>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="header_nom_site">Constructexpo</a>
+
+        <button class="header__menu-btn menu-btn" @click="menuIsOpen = !menuIsOpen">
+            <span class="menu-btn__bar"></span>
+        </button>
+
+        <nav class="header_menu menu" :class="menuIsOpen && 'menu--open'">
+            <ul class="menu-list">
+                <li class="menu_item">
+                    <a class="menu_link" href="./index.html">acceuil</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu_link" href="">Artiste</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu_link" href="">Contacte</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu_link" href="">Exposition</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Plan for the Berliner Art Exhibition</h1>
+        <div class="image_artiste">
+        <img src="./public/img/plan-for-the-berliner-art-exhibition-1924.jpg" alt="image de berliner art">
+        </div>
+        <p class="text_page">
+            insérer paragraphe 1 
+        </p>
+
+        <p class="text_page">
+            insérer paragraphe 2
+        </p>
+
+    </main>
+    <footer class="footer">
+        <p class="footer_text">Pour rester au courant sur nos dernières actualité suivez-nous sur : </p>
+        <img src="./public/img/facebook-svgrepo-com.svg" class="icone_reseau">
+        <img src="./public/img/instagram-svgrepo-com.svg" class="icone_reseau">
+        <img src="./public/img/twitter-svgrepo-com 1.webp" class="icone_reseau">
+        <img src="./public/img/youtube-svgrepo-com.svg" class="icone_reseau">
+    </footer>
+    
+</body>
+</html>
