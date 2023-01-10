@@ -1,3 +1,8 @@
 .footer {
     background-color: var(--couleur-tonique-2);
 }
+
+.footer_text{
+    margin: 1vh;
+    font-family: "jaldi";
+}
