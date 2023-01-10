@@ -17,6 +17,6 @@ h1 {
     color: var(--couleur-tonique-2);
 }
 
-ul {
-    appearance: none;
+li {
+    list-style-type : none;
 }
