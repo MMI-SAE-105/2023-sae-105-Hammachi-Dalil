@@ -65,5 +65,11 @@ a {
    .input::placeholder {
     color: #ffffff;
    }
+
+figcaption {
+    color: var(--couleur-tonique-2);
+    font-family: "jaldi";
+    font-size: var(--typographie-texte-1);
+}
    
  

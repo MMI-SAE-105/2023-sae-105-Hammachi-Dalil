@@ -60,6 +60,8 @@ li {
   display: block;
 }
 
-.carrousel_lien {
-    color: var();
+.caroussel_lien {
+    color: var(--couleur-tonique-2);
+    font-family: "jaldi";
+    font-size: var(--typographie-texte-1);
 }
