@@ -1,12 +1,56 @@
 <!DOCTYPE html>
+<head>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 | Page non trouvée</title>
-<h1>Page non trouvée</h1>
-<H2>ERREUR 404</H2>
-<form action="https://google.com/" method="GET" 
-    x-data="{ q:'', }" 
-    x-on:submit="q = q + ' site:dada.lisa-cingolani.fr'">
-    <label for="q">Que cherchez-vous ?</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
-</form>
+<link rel="stylesheet" href="./src/style.css">
+</head>
+
+
+<body>
+<header class="header">
+    <a href="./index.html" class="header_nom_site">Constructexpo</a>
+
+    <button class="header__menu-btn menu-btn" @click="menuIsOpen = !menuIsOpen">
+        <span class="menu-btn__bar"></span>
+    </button>
+
+    <nav class="header_menu menu" :class="menuIsOpen && 'menu--open'">
+        <ul class="menu-list">
+            <li class="menu_item">
+                <a class="menu_link" href="./index.html">Accueil</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu_link" href="./artiste.html">Artiste</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu_link" href="./contacte.html">Contact</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu_link" href="./exposition.html">Exposition</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+    <title>404 | Page non trouvée</title>
+    <h1>Page non trouvée</h1>
+    <H2>ERREUR 404</H2>
+    <form action="https://google.com/" method="GET" 
+        x-data="{ q:'', }" 
+        x-on:submit="q = q + ' site:constructexpo.dalil-hammachi.fr'">
+        <label for="q">Que cherchez-vous ?</label>
+        <input type="text" id="q" name="q" x-model="q">
+        <button type="submit">Rechercher</button>
+    </form>
+
+</main>
+
+<footer class="footer">
+    <p class="footer_text">Pour rester au courant sur nos dernières actualité suivez-nous sur : </p>
+    <img src="./public/img/facebook-svgrepo-com.svg" class="icone_reseau">
+    <img src="./public/img/instagram-svgrepo-com.svg" class="icone_reseau">
+    <img src="./public/img/twitter-svgrepo-com 1.webp" class="icone_reseau">
+    <img src="./public/img/youtube-svgrepo-com.svg" class="icone_reseau">
+</footer>
+
+</body>

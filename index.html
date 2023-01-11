@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{ menuIsOpen: false, menuArticle: false }">
+<html lang="fr" x-data="{ menuIsOpen: false, menuArticle: false }" :class="{noscroll:menuIsOpen}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +35,6 @@
     </header>
     <main>
         <h1>Le constructivisme</h1>
-
         <div class="carrousel" x-data="{}">
             <div class="carrousel_parent-ecrans" x-ref="parent">
                 <div id="ecran-1" class="carrousel_ecran">
@@ -116,7 +115,7 @@
             </ul>
         </div>
 
-        <p class="text_page">Le constructivisme est un courant artistique né au début du XXe siècle en Russie. 
+        <p class="text_page " >Le constructivisme est un courant artistique né au début du XXe siècle en Russie. 
             Il s'est développé en « parallèle » à un autre mouvement, le suprématisme.</p>
 
         <p class="text_page">Le terme d'« art de la construction » a d'abord été utilisé par dérision par Kazimir Malevitch, 
