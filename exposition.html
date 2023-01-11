@@ -62,8 +62,8 @@
 
             <div x-data="{buttonIsOpen: 0}">
                 <section>
-                  <button @click="buttonIsOpen = (buttonIsOpen === 1)?0:1" class="btn">bouton 1</button>
-                  <p x-show="buttonIsOpen === 1"x-transition.duration.700ms>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nisi earum dolor vitae odio at esse hic? Velit, iusto ut molestiae quasi quaerat totam debitis officia ad perspiciatis repellat eligendi.</p>
+                  <button @click="buttonIsOpen = (buttonIsOpen === 1)?0:1" class="btn_accordeon">Réserver</button>
+                  <p class="text_page" x-show="buttonIsOpen === 1"x-transition.duration.700ms>Nous somme désolé les place ne sont pas encore en vente. Quand sa sera le cas cliquez <a href="./reservation.html"> ici </a></p>
                 </section>
             </div>
 
