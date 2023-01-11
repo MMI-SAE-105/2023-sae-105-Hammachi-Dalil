@@ -60,6 +60,13 @@
                 </li>
             </ul>
 
+            <div x-data="{buttonIsOpen: 0}">
+                <section>
+                  <button @click="buttonIsOpen = (buttonIsOpen === 1)?0:1" class="btn">bouton 1</button>
+                  <p x-show="buttonIsOpen === 1"x-transition.duration.700ms>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nisi earum dolor vitae odio at esse hic? Velit, iusto ut molestiae quasi quaerat totam debitis officia ad perspiciatis repellat eligendi.</p>
+                </section>
+            </div>
+
 
     </main>
     <footer class="footer">
