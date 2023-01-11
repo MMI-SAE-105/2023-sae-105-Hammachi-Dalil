@@ -4,10 +4,11 @@
     align-items: center;
 }
 
-.image_artiste {
+.image_artiste_frise {
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     margin: 16px 0;
+    border: 10px solid var(--couleur-tonique-2);
 }
 
